@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE magasin [
+        <!ELEMENT magasin (produit+, facture+)>
+        <!ELEMENT produit EMPTY>
+        <!ATTLIST produit
+                num ID #REQUIRED
+                Etiquette CDATA #REQUIRED
+                prix CDATA #REQUIRED
+                >
+        <!ELEMENT facture (produit-vendu+)>
+        <!ATTLIST facture
+                numero ID #REQUIRED
+                prix-totale CDATA #REQUIRED
+                >
+        <!ELEMENT produit-vendu EMPTY>
+        <!ATTLIST produit-vendu
+                ref-p IDREF #REQUIRED
+                quantite CDATA #REQUIRED
+                >
+        ]>
+
+<magasin>
+    <produit num="p1" Etiquette="Cahier 96" prix="100" />
+    <produit num="p3" Etiquette="Cahier 120" prix="120" />
+    <produit num="p21" Etiquette="Stylo Bleu" prix="30" />
+    <facture numero="F1" prix-totale="0">
+        <produit-vendu ref-p="p1" quantite="30" />
+        <produit-vendu ref-p="p3" quantite="20" />
+        <produit-vendu ref-p="p21" quantite="12" />
+    </facture>
+    <facture numero="F2" prix-totale="0">
+        <produit-vendu ref-p="p3" quantite="30" />
+    </facture>
+</magasin>

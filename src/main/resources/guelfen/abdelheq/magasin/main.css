@@ -1,0 +1,63 @@
+/* Custom CSS */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 19;
+    -fx-text-transform: none;
+}
+
+.custom-button {
+    -fx-background-color: #2196F2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+.totalPrice {
+    -fx-padding: 16px;
+    -fx-font-size: 16;
+
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-border-width: 2px;
+
+    -fx-border-color: #0000FFB3;
+    -fx-background-color: #0000FF19;
+    -fx-text-fill: #0000FFB3;
+}
+
+.label-error {
+    -fx-padding: 16px;
+    -fx-font-size: 16;
+
+    -fx-border-style: solid;
+    -fx-border-radius: 10;
+    -fx-border-width: 2px;
+
+    -fx-border-color: #FF0000B2;
+    -fx-background-color: #FF000019;
+    -fx-text-fill: #FF0000B2;
+}
+
+.facture {
+    -fx-font-size: 14px;
+}
+
+/*
+.root {
+    -fx-background-color: #333;
+    -fx-text-fill: #eee;
+    -fx-font-size: 19;
+}
+
+.button {
+    -fx-background-color: #555;
+    -fx-text-fill: #eee;
+}
+
+.label {
+    -fx-text-fill: #eee;
+}
+
+.text-field {
+    -fx-background-color: #555;
+    -fx-text-fill: #eee;
+}
+*/
