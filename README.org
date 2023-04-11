@@ -1,0 +1,5 @@
+#+title:     GUI JAVA DOM XML
+#+author:    hakou guelfen
+#+email:     hakoudev@gmail.com
+
+a small GUI java app to manipulate an xml file and extract useful informations
