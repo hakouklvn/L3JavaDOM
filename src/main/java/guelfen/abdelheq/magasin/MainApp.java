@@ -10,6 +10,8 @@ import java.util.Objects;
 public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
+        MagazineParser.initElement();
+
         FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("main.fxml"));
         String css = Objects.requireNonNull(getClass().getResource("main.css")).toExternalForm();
 
@@ -20,7 +22,7 @@ public class MainApp extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         launch();
     }
 }

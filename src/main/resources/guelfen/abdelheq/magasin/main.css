@@ -18,9 +18,9 @@
     -fx-border-radius: 10;
     -fx-border-width: 2px;
 
-    -fx-border-color: #0000FFB3;
-    -fx-background-color: #0000FF19;
-    -fx-text-fill: #0000FFB3;
+    -fx-border-color: #2196F2B3;
+    -fx-background-color: #2196F219;
+    -fx-text-fill: #2196F2;
 }
 
 .label-error {
